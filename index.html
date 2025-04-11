@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | Welcome</title>
+    <meta name="description" content="Personal portfolio website showcasing my skills, accomplishments, and future goals">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Portfolio</h1>
+            </div>
+            <nav id="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#accomplishments">Accomplishments</a></li>
+                    <li><a href="#goals">Goals</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home/Landing Section -->
+    <section id="home" class="section">
+        <div class="container">
+            <div class="home-content">
+                <div class="home-text">
+                    <h1 class="animate-on-scroll fade-in">Hello, I'm <span class="highlight">Shankar Harikrishnan</span></h1>
+                    <h2 class="animate-on-scroll fade-in delay-1">I'm <span class="typed-text"></span></h2>
+                    <p class="animate-on-scroll fade-in delay-2">👋 Freshman @ Stevenson High School, aspiring physician, student researcher</p>
+                    <div class="cta-buttons animate-on-scroll fade-in delay-3">
+                        <a href="#about" class="btn btn-primary">My Background</a>
+                        <a href="#contact" class="btn btn-secondary">Connect With Me</a>
+                    </div>
+                </div>
+                <div class="home-image animate-on-scroll fade-in">
+                    <div class="profile-shape floating">
+                        <img
+                          src="photo_1.jpeg"
+                          alt="Shankar Photo 1" 
+                          style="width:100%; max-width:300px; border-radius:10px; display:block;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about">
+                <i class="fas fa-chevron-down pulse"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="animate-on-scroll fade-in">About Me</h2>
+                <div class="underline animate-on-scroll width-animate"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image animate-on-scroll slide-in-left">
+                    <div class="image-frame">
+                    </div>
+                </div>
+                <div class="about-text animate-on-scroll slide-in-right">
+                    <h3>Who I Am</h3>
+                    <p>I'm a passionate individual dedicated to continuous growth and learning. With a strong foundation in [your field], I strive to create meaningful impact through my work.</p>
+                    
+                    <h3>My Background</h3>
+                    <p>I have [X] years of experience in [industry/field], where I've developed expertise in [specific skills]. My educational background includes [degree/certification] from [institution].</p>
+                    
+                    <div class="skills">
+                        <h3>My Skills</h3>
+                        <div class="skill-bars">
+                            <div class="skill">
+                                <div class="skill-name">Skill 1</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name">Skill 2</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name">Skill 3</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name">Skill 4</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accomplishments/Portfolio Section -->
+    <section id="accomplishments" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="animate-on-scroll fade-in">Medical Accomplishments</h2>
+                <div class="underline animate-on-scroll width-animate"></div>
+            </div>
+            <div class="accomplishments-intro animate-on-scroll fade-in">
+                <p>Here are some of my key achievements in medical practice and research. Each represents a milestone in my professional journey.</p>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item animate-on-scroll slide-up medical-card">
+                    <div class="portfolio-content">
+                        <div class="medical-icon floating" data-animation="pulse">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Cardiac Research Publication</h3>
+                            <p>Led a groundbreaking study on cardiac regeneration techniques, published in a top-tier medical journal with significant impact on treatment protocols.</p>
+                            <div class="portfolio-tags">
+                                <span>Cardiology</span>
+                                <span>Research</span>
+                                <span>Innovation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item animate-on-scroll slide-up delay-1 medical-card">
+                    <div class="portfolio-content">
+                        <div class="medical-icon floating" data-animation="heartbeat">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Neurological Treatment Protocol</h3>
+                            <p>Developed an innovative approach to treating neurological disorders that has been adopted by several major medical centers nationwide.</p>
+                            <div class="portfolio-tags">
+                                <span>Neurology</span>
+                                <span>Treatment</span>
+                                <span>Protocol</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item animate-on-scroll slide-up delay-2 medical-card">
+                    <div class="portfolio-content">
+                        <div class="medical-icon floating" data-animation="ecg">
+                            <i class="fas fa-microscope"></i>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Medical Research Grant</h3>
+                            <p>Secured significant funding for pioneering research in immunotherapy applications, enabling critical advancements in cancer treatment methods.</p>
+                            <div class="portfolio-tags">
+                                <span>Immunology</span>
+                                <span>Oncology</span>
+                                <span>Research</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 4 -->
+                <div class="portfolio-item animate-on-scroll slide-up delay-3 medical-card">
+                    <div class="portfolio-content">
+                        <div class="medical-icon floating" data-animation="pulse">
+                            <i class="fas fa-stethoscope"></i>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Patient Care Excellence Award</h3>
+                            <p>Recognized for exceptional dedication to patient care and implementing innovative approaches to improving patient outcomes and experiences.</p>
+                            <div class="portfolio-tags">
+                                <span>Patient Care</span>
+                                <span>Recognition</span>
+                                <span>Leadership</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Goals/Future Aspirations Section -->
+    <section id="goals" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="animate-on-scroll fade-in">Medical Career Goals</h2>
+                <div class="underline animate-on-scroll width-animate"></div>
+            </div>
+            <div class="goals-intro animate-on-scroll fade-in">
+                <p>My vision is to advance medical practice through innovative research and compassionate patient care. These are my key aspirations for the future of my medical career.</p>
+            </div>
+            <div class="goals-content">
+                <div class="medical-card animate-on-scroll slide-up">
+                    <div class="medical-icon pulse">
+                        <i class="fas fa-hospital"></i>
+                    </div>
+                    <h3>Clinical Excellence</h3>
+                    <p>Establish a specialized medical practice that implements cutting-edge treatments while maintaining the highest standards of patient-centered care.</p>
+                </div>
+                
+                <div class="medical-card animate-on-scroll slide-up delay-1">
+                    <div class="medical-icon heartbeat">
+                        <i class="fas fa-vial"></i>
+                    </div>
+                    <h3>Research & Innovation</h3>
+                    <p>Lead breakthrough research in regenerative medicine and publish findings in peer-reviewed journals to advance treatment options for chronic conditions.</p>
+                </div>
+                
+                <div class="medical-card animate-on-scroll slide-up delay-2">
+                    <div class="medical-icon ecg">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Medical Education</h3>
+                    <p>Develop a comprehensive medical education program that bridges the gap between clinical practice and emerging research methodologies.</p>
+                </div>
+                
+                <div class="medical-card animate-on-scroll slide-up delay-3">
+                    <div class="medical-icon pulse">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Global Health Initiative</h3>
+                    <p>Create a sustainable healthcare initiative that provides advanced medical services to underserved communities and trains local healthcare professionals.</p>
+                </div>
+            </div>
+            <div class="goals-timeline animate-on-scroll fade-in">
+                <h3>Professional Timeline</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Short-term (1-2 years)</h4>
+                            <p>Complete specialized certification in advanced treatment methodologies and establish collaborative partnerships with research institutions.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Mid-term (3-5 years)</h4>
+                            <p>Develop and validate a novel treatment protocol through clinical trials and secure funding for expansion of research initiatives.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Long-term (5+ years)</h4>
+                            <p>Establish a comprehensive medical center that integrates clinical care, research, and education to transform patient outcomes globally.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="animate-on-scroll fade-in">Get In Touch</h2>
+                <div class="underline animate-on-scroll width-animate"></div>
+            </div>
+            <div class="contact-intro animate-on-scroll fade-in">
+                <p>I'm always open to new opportunities, collaborations, or just a friendly conversation. Feel free to reach out through any of the channels below.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info animate-on-scroll slide-in-left">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>shankarhkn@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>(123) 456-7890</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Chicago, Illinois</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <h3>Connect With Me</h3>
+                        <div class="social-icons">
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form animate-on-scroll slide-in-right">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Your Name</h2>
+                    <p>Personal Portfolio</p>
+                </div>
+                <div class="quick-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#accomplishments">Accomplishments</a></li>
+                        <li><a href="#goals">Goals</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Stay Connected</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; <span id="year"></span> Shankar Harikrishnan. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <a href="#home" aria-label="Back to Top"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
