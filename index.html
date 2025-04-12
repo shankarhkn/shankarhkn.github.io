@@ -255,8 +255,14 @@
                 </div>
             </div>
 <style>
-  /* Responsive layout: stack on screens smaller than 768px */
-  @media (max-width: 768px) {
+  /* Responsive layout for different screen sizes */
+  @media (max-width: 1024px) {
+    .portfolio-item {
+      flex: 0 1 calc(50% - 20px) !important;
+    }
+  }
+
+  @media (max-width: 600px) {
     .portfolio-item {
       flex: 0 1 100% !important;
     }
@@ -264,53 +270,57 @@
 </style>
 
 <div class="portfolio-wrapper" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
-    
+
     <!-- Portfolio Item 3 -->
-    <div class="portfolio-item animate-on-scroll slide-up delay-2 medical-card" style="flex: 0 1 calc(50% - 20px); box-sizing: border-box;">
-        <div class="portfolio-content" style="display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap;">
-            <div class="portfolio-info" style="flex: 1;">
+    <div class="portfolio-item animate-on-scroll slide-up delay-2 medical-card"
+         style="flex: 0 1 calc(33.333% - 20px); box-sizing: border-box; min-width: 250px;">
+        <div class="portfolio-content"
+             style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px;">
+            <div class="portfolio-info" style="width: 100%;">
                 <div class="medical-icon floating" data-animation="ecg">
                     <i class="fas fa-microscope"></i>
                 </div>
-                <h3>International Geography Championships 2024</h3>
-                <p>Placed Fourth in the International Geography Bee and Fifth in the overall competition; published in the Daily Herald</p>
-                <div class="portfolio-tags">
+                <h3 style="margin: 10px 0;">International Geography Championships 2024</h3>
+                <p style="word-wrap: break-word;">Placed Fourth in the International Geography Bee and Fifth in the overall competition; published in the Daily Herald</p>
+                <div class="portfolio-tags" style="display: flex; flex-wrap: wrap; gap: 5px;">
                     <span><a href="https://www.dailyherald.com/20241113/submitted-content/stevenson-freshman-shankar-harikrishnan-places-fourth-at-international-geography-championships/">Article</a></span>
                     <span>Geography</span>
                     <span>Competitions</span>
                 </div>
             </div>
-            <div class="portfolio-image" style="flex-shrink: 0;">
+            <div class="portfolio-image">
                 <img src="https://i.imgur.com/CxvJGC1.jpeg" alt="Shankar Photo 2"
-                    style="width: 150px; border-radius: 10px; display: block;" />
+                     style="width: 100%; max-width: 120px; border-radius: 10px;" />
             </div>
         </div>
     </div>
 
     <!-- Portfolio Item 4 -->
-    <div class="portfolio-item animate-on-scroll slide-up delay-2 medical-card" style="flex: 0 1 calc(50% - 20px); box-sizing: border-box;">
-        <div class="portfolio-content" style="display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap;">
-            <div class="portfolio-info" style="flex: 1;">
+    <div class="portfolio-item animate-on-scroll slide-up delay-2 medical-card"
+         style="flex: 0 1 calc(33.333% - 20px); box-sizing: border-box; min-width: 250px;">
+        <div class="portfolio-content"
+             style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px;">
+            <div class="portfolio-info" style="width: 100%;">
                 <div class="medical-icon floating" data-animation="ecg">
                     <i class="fas fa-microscope"></i>
                 </div>
-                <h3>International Geography Championships 2024</h3>
-                <p>Placed Fourth in the International Geography Bee and Fifth in the overall competition; published in the Daily Herald</p>
-                <div class="portfolio-tags">
+                <h3 style="margin: 10px 0;">International Geography Championships 2024</h3>
+                <p style="word-wrap: break-word;">Placed Fourth in the International Geography Bee and Fifth in the overall competition; published in the Daily Herald</p>
+                <div class="portfolio-tags" style="display: flex; flex-wrap: wrap; gap: 5px;">
                     <span><a href="https://www.dailyherald.com/20241113/submitted-content/stevenson-freshman-shankar-harikrishnan-places-fourth-at-international-geography-championships/">Article</a></span>
                     <span>Geography</span>
                     <span>Competitions</span>
                 </div>
             </div>
-                  <div class="portfolio-image" style="flex-shrink: 0;">
-                <img
-                    src="https://i.imgur.com/CxvJGC1.jpeg"
-                    alt="Shankar Photo 2"
-                    style="width: 150px; border-radius: 10px; display: block;" />
+            <div class="portfolio-image">
+                <img src="https://i.imgur.com/CxvJGC1.jpeg" alt="Shankar Photo 2"
+                     style="width: 100%; max-width: 120px; border-radius: 10px;" />
+            </div>
         </div>
     </div>
 
 </div>
+
 
       
             </div>
