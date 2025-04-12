@@ -1303,3 +1303,22 @@ textarea {
         padding: 1rem 2rem;
     }
 }
+
+.portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap; /* allow items to wrap to new lines */
+    gap: 20px; /* space between items */
+    padding: 10px;
+}
+
+.portfolio-item {
+    flex: 0 0 50%; /* 2 items per row */
+    box-sizing: border-box;
+}
+
+/* Optional: make them stack on smaller screens */
+@media (max-width: 768px) {
+    .portfolio-item {
+        flex: 0 0 100%; /* full width on mobile */
+    }
+}
