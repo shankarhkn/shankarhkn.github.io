@@ -1,0 +1,5 @@
+    <meta name="keywords" content="Shankar Harikrishnan, shankarhkn" />
+    <meta name="robots" content="INDEX,FOLLOW" />
+    <meta name="robots" content="noimageindex">
+    <meta name="googlebot" content="INDEX,FOLLOW" />
+    <meta name="googlebot" content="noimageindex">
