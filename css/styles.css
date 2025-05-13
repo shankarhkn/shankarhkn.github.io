@@ -1344,7 +1344,7 @@ ul {
       border-radius: 8px;
       position: absolute;
       z-index: 1;
-      top: 50%; /*To show below the button*/
+      top: 95%; /*To show below the button*/
       left: 50%;
       transform: translateX(-50%);
       opacity: 0;
