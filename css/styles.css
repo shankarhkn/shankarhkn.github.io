@@ -1335,9 +1335,12 @@ li {
   position: relative;
 }
 
-/* Tooltip container */
+.tooltip {
+  display: inline-block;
+}
+
 .tooltip .tooltiptext {
-  all: unset;                            /* Reset any inherited styles */
+  all: unset;                            /* Reset inherited styles */
   display: block;
   background-color: #333;               /* Black background */
   color: #fff;                          /* White text */
@@ -1354,10 +1357,12 @@ li {
 
   font-size: 14px;                      /* Normal size text */
   line-height: 1.4;
-  max-width: 300px;
   white-space: normal;
   word-wrap: break-word;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+  width: 100%;                          /* Tooltip takes full width of parent */
+  min-width: 0;                         /* Remove any width restrictions */
 }
 
 /* Show tooltip on hover */
