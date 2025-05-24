@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Typing effect
     const typedTextElement = document.querySelector('.typed-text');
     if (typedTextElement) {
-        const phrases = ['a Freshman', 'a Student Researcher', 'an Aspiring Doctor', 'a Quizbowler', 'an Inventor'];
+        const phrases = ['a Sophomore', 'a Student Researcher', 'an Aspiring Doctor', 'a Quizbowler', 'an Inventor'];
         let currentPhrase = 0;
         let currentChar = 0;
         let isDeleting = false;
